@@ -1,10 +1,6 @@
-import { Poppins } from "next/font/google";
 import "./globals.css";
+import "@flaticon/flaticon-uicons/css/all/all.css";
 
-const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600"],
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Life In Dots",
@@ -14,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body >
+        {children}
+        </body>
     </html>
   );
 }
