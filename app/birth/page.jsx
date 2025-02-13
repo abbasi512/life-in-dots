@@ -6,12 +6,12 @@ export default function Signup() {
   const [year, setYear] = useState("");
 
   return (
-    <div className="min-h-screen flex items-center flex-col bg-white">
-      <div className="flex items-center justify-between px-16 py-4 w-full ">
+    <div className="min-h-screen flex px-4 md:px-auto items-center flex-col bg-white">
+      <div className="flex items-center justify-between md:px-16 py-4 w-full ">
         <div className="">
           <img src="/logo.png" />
         </div>
-        <Menu as="div" className="relative hidden md:flex">
+        <Menu as="div" className="relative flex">
             <Menu.Button>
           <div className="flex items-center bg-[#F5F5F7] px-3 py-2 rounded-lg border border-gray-200">
             <img
@@ -51,12 +51,12 @@ export default function Signup() {
         </Menu>
       </div>
 
-      <div className="bg-[#FEF6E4] flex flex-col border-2 border-[#FFCC65] items-center p-10 rounded-lg shadow-lg text-center w-2/3">
+      <div className="bg-[#FEF6E4] flex flex-col md:mt-auto mt-10 border-2 border-[#FFCC65] items-center p-4 md:p-10 rounded-lg shadow-lg text-center w-full md:w-2/3">
         <div className="flex justify-center py-4 mb-4">
           <img src="/logo.png" className="" />
         </div>
 
-        <h2 className="text-lg w-1/2 font-semibold">
+        <h2 className="text-lg w-full md:w-1/2 font-semibold">
           Enter your first Dot! Watch your life unfold into a meaningful story,
           revealing patterns, milestones, and personal growth
         </h2>
