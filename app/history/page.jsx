@@ -1,4 +1,4 @@
-import Container from "@/Components/Container";
+import Container from "@/components/Container";
 import React from "react";
 
 const History = () => {
