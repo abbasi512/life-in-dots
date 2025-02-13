@@ -51,7 +51,7 @@ export default function Signup() {
         </Menu>
       </div>
 
-      <div className="bg-[#FEF6E4] flex flex-col md:mt-auto mt-10 border-2 border-[#FFCC65] items-center p-4 md:p-10 rounded-lg shadow-lg text-center w-full md:w-2/3">
+      <div className="bg-[#FEF6E4] flex flex-col my-10 border-2 border-[#FFCC65] items-center p-4 md:p-10 rounded-lg shadow-lg text-center w-full md:w-2/3">
         <div className="flex justify-center py-4 mb-4">
           <img src="/logo.png" className="" />
         </div>
